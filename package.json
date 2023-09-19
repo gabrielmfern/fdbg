@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/package.json",
+  "name": "dbg",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
