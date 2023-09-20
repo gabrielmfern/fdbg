@@ -1,4 +1,4 @@
-# dbg
+# fdbg
 
 An npm package for easier "console.logs" that are still traceable on the browser.
 
@@ -74,7 +74,7 @@ without any hastle at all. No importing nor anything.
 To use it is quite simple. You will first need to install with your favorite package manager, like:
 
 ```bash
-npm install dbg
+npm install fdbg
 ```
 
 Then, since the package manually declares the dbg function on the global scope of your running project
@@ -82,7 +82,7 @@ it requires at least to be imported for the code to run, so you need to find som
 and import it there, as simple as follows:
 
 ```javascript
-import 'dbg';
+import 'fdbg';
 ```
 
 That's it, you can use the `dbg` function anywhere you wish and it will work flawlessly (I hope).

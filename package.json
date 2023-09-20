@@ -1,9 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/package.json",
-  "name": "dbg",
+  "name": "fdbg",
   "version": "1.0.0",
   "type": "module",
   "main": "lib/index.js",
+  "author": {
+    "name": "Gabriel Miranda",
+    "url": "https://github.com/gabrielmfern"
+  },
+  "repository": {
+    "url": "https://github.com/gabrielmfern/fdbg"
+  },
+  "readme": "https://raw.githubusercontent.com/gabrielmfern/fdbg/master/README.md",
   "exports": {
     ".": "./lib/index.js"
   },
