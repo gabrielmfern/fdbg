@@ -3,6 +3,7 @@
   "name": "dbg",
   "version": "1.0.0",
   "type": "module",
+  "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js"
   },
